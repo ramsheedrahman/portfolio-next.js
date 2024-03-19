@@ -7,7 +7,6 @@ import ProjectSection from './Components/ProjectSection'
 import EmailSection from './Components/EmailSection'
 import Footer from './Components/Footer'
 import ProfileCard from './Components/ProfileCard'
-import About from '../pages/about'
 export default function Home() {
 
   return (
