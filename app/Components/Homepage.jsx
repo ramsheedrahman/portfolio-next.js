@@ -28,17 +28,17 @@ function Homepage() {
         </div>
       </div>
 
-      <div className=" flex justify-center md:col-span-12">
+      <div className=" flex justify-center md:col-span-12 ">
         <Link
           href="mailto:ramsheedkk06@gmail.com"
-          className="px-6  py-3 w-full sm:w-fit rounded-full mr-4 "
+          className="px-6 py-3 w-auto  rounded-full  "
         >
-          <span className="block rounded-full px-5 py-2 bg-gray-900 text-white font-semibold border-2 border-yellow-500 ">
+          <span className="block rounded-full px-5 py-2  bg-gray-900 text-white font-semibold border-2 border-yellow-500  ">
             Hire me
           </span>{" "}
         </Link>
-        <Link href="/resume/myResume.pdf" download={'Ramsheed-Resume.pdf'} className=" w-full sm:w-fit rounded-full">
-          <span className="block rounded-full bg-gray-900 text-white mt-3 px-5 py-2 font-semibold border-2 border-yellow-500 ">
+        <Link href="/resume/myResume.pdf" download={'Ramsheed-Resume.pdf'} className="rounded-full">
+          <span className="block rounded-full bg-gray-900 text-white mt-3 px-4 py-2 font-semibold border-2 border-yellow-500 sm:w-full ">
             Download CV
           </span>
         </Link>
