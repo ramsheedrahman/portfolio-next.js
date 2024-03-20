@@ -44,7 +44,7 @@ function Aboutsection() {
       <div className="flex justify-center ">
         <div className="w-full ">
           <h1 className="text-2xl font-bold mb-4 md:text-3xl text-center">About Me</h1>
-          <p className="text-base md:text-lg ">
+          <p className="text-base md:text-lg text-justify ">
             Hello! I'm Ramsheed, an enthusiastic learner and aspiring web
             developer with a Bachelor of Commerce (B.Com) degree. With a
             background in accounting and IT assistance, I've cultivated strong

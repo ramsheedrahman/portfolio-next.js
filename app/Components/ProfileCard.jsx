@@ -2,7 +2,7 @@ import React from "react";
 
 const ProfileCard = ({ title, items }) => {
   return (
-    <div className="max-w-full mx-auto text-white rounded-xl overflow-hidden shadow-md m-4  ring-1 ring-gray-700 sm:w-full ">
+    <div className="max-w-full mx-auto text-white rounded-xl overflow-hidden shadow-md m-4  ring-1 ring-black sm:w-full ">
       <div className="px-6 py-4">
         <div className="font-bold text-xl mb-2 ">{title}</div>
         <ul className="list-disc list-inside mt-4 ">

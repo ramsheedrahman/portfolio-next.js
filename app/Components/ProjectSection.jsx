@@ -53,11 +53,11 @@ const projectsData = [
   return (
     <div>
         <h1 className='text-center text-4xl mt-4 mb-4 text-white font-bold py-6'>My Projects</h1>
-        <div className="text-white flex flex-row justify-center gap-2">
-            <button className={`${ButtonStyles}border-2 rounded-full  bg-gray-400 px-4 py-2`} selected={tag==='All'} onClick={()=>handleChange('All')}>All</button>
-            <button className={`${ButtonStyles}border-2 rounded-full  bg-gray-400 px-4`} selected={tag==='MERN Stack'} onClick={()=>handleChange('MERN Stack')}>MERN Stack</button>
-            <button className={`${ButtonStyles}border-2 rounded-full  bg-gray-400 px-4`} selected={tag==='Python'} onClick={()=>handleChange('Python')}>Python</button>
-            <button className={`${ButtonStyles}border-2 rounded-full  bg-gray-400 px-4`} selected={tag==='HTML,CSS,JAVASCRIPT'} onClick={()=>handleChange('HTML,CSS,JAVASCRIPT')}>Javascript</button>
+        <div className="text-white flex flex-row justify-center gap-2 mb-9">
+            <button className={`${ButtonStyles} rounded-full  bg-gray-600 px-4 py-2 border border-white`} selected={tag==='All'} onClick={()=>handleChange('All')}>All</button>
+            <button className={`${ButtonStyles} rounded-full  bg-gray-600 px-4 border border-white`} selected={tag==='MERN Stack'} onClick={()=>handleChange('MERN Stack')}>MERN Stack</button>
+            <button className={`${ButtonStyles} rounded-full  bg-gray-600 px-4 border border-white`} selected={tag==='Python'} onClick={()=>handleChange('Python')}>Python</button>
+            <button className={`${ButtonStyles} rounded-full  bg-gray-600 px-4 border border-white`} selected={tag==='HTML,CSS,JAVASCRIPT'} onClick={()=>handleChange('HTML,CSS,JAVASCRIPT')}>Javascript</button>
 
         </div>
         <div className='grid md:grid-cols-3 gap-8 md:gap-12 m-4'>

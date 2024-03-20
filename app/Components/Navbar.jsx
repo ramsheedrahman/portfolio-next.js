@@ -21,7 +21,7 @@ function Navbar() {
         },
       ];
   return (
-    <nav className='fixed top-0 left-0 right-0 z-10 bg-[#2a1757] bg-opacity-90'>
+    <nav className='fixed top-0 left-0 right-0 z-10 bg-[#3c2a67] bg-opacity-90'>
     <div className='flex flex-wrap items-center mx-auto px-4  md:justify-center mt-4'>
         
         <div className="mobile-menu md:hidden ">

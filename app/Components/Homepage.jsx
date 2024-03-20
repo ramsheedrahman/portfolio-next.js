@@ -22,7 +22,7 @@ function Homepage() {
         </h1>
       </div>
 
-      <div className="col-span-5  place-self-center mt-4 ">
+      <div className="md:col-span-5 sm:col-span-12 place-self-center mt-4 ">
         <div className="rounded-full bg-[#181818] w-[400px] h-[400px] lg:h-[400px] lg:w-[400px] relative overflow-hidden">
           <Image src="/images/myImage2.png" width={400} height={400} />
         </div>
@@ -33,12 +33,12 @@ function Homepage() {
           href="mailto:ramsheedkk06@gmail.com"
           className="px-6  py-3 w-full sm:w-fit rounded-full mr-4 "
         >
-          <span className="block rounded-full px-5 py-2 bg-black text-white font-semibold ">
+          <span className="block rounded-full px-5 py-2 bg-gray-900 text-white font-semibold border-2 border-yellow-500 ">
             Hire me
           </span>{" "}
         </Link>
-        <Link href="/resume/myResume.pdf" download={'Ramsheed-Resume.pdf'} className=" w-full sm:w-fit rounded-full  ">
-          <span className="block rounded-full bg-black  text-white mt-3 px-5 py-2 font-semibold">
+        <Link href="/resume/myResume.pdf" download={'Ramsheed-Resume.pdf'} className=" w-full sm:w-fit rounded-full">
+          <span className="block rounded-full bg-gray-900 text-white mt-3 px-5 py-2 font-semibold border-2 border-yellow-500 ">
             Download CV
           </span>
         </Link>
