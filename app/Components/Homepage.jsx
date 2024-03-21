@@ -14,7 +14,7 @@ function Homepage() {
           </span>{" "}
           <br />
           <TypeAnimation
-            sequence={["Ramsheed K K", 1000, "Full Stack Developer", 1000]}
+            sequence={["Ramsheed K K", 1000, "a MERN Stack Developer", 1000]}
             wrapper="span"
             speed={50}
             repeat={Infinity}
@@ -22,8 +22,8 @@ function Homepage() {
         </h1>
       </div>
 
-      <div className="md:col-span-5 sm:col-span-12 place-self-center mt-4 ">
-        <div className="rounded-full bg-[#181818] w-[400px] h-[400px] lg:h-[400px] lg:w-[400px] relative overflow-hidden">
+      <div className="lg:col-span-5 md:col-span-12 place-self-center mt-4 ">
+        <div className="rounded-full bg-gray-400 w-[400px] h-[400px] lg:h-[400px] lg:w-[400px] relative overflow-hidden">
           <Image src="/images/myImage2.png" width={400} height={400} />
         </div>
       </div>
@@ -33,12 +33,13 @@ function Homepage() {
           href="mailto:ramsheedkk06@gmail.com"
           className="px-6 py-3 w-auto  rounded-full  "
         >
-          <span className="block rounded-full px-5 py-2  bg-gray-900 text-white font-semibold border-2 border-yellow-500  ">
-            Hire me
-          </span>{" "}
+          <span className="block rounded-full px-5 py-2 bg-gradient-to-r from-gray-700 to-gray-900 text-white font-semibold border-2 border-yellow-700">
+  Hire me
+</span>
+
         </Link>
         <Link href="/resume/myResume.pdf" download={'Ramsheed-Resume.pdf'} className="rounded-full">
-          <span className="block rounded-full bg-gray-900 text-white mt-3 px-4 py-2 font-semibold border-2 border-yellow-500 sm:w-full ">
+          <span className="block rounded-full bg-gradient-to-r from-gray-700 to-gray-900 text-white mt-3 px-4 py-2 font-semibold border-2 border-yellow-700 sm:w-full ">
             Download CV
           </span>
         </Link>
